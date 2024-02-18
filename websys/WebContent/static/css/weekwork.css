@@ -1,0 +1,108 @@
+body{
+	background-image: url(../img/R-C.jpg);
+	background-size:100% ;
+	
+}
+.login_box{
+	width: 20%;
+	height: 400px;
+	background-color: transparent;
+	margin: auto;
+	margin-top: 10%;
+	text-align: center;
+	border-radius: 10px;
+	padding: 50px 50px;
+	border: 1px solid #fff;
+	
+}
+.title{
+	 color: #fff;
+	 font-size: 33px;
+	 margin-bottom: 20px;
+	 font-family: cursive;
+	/* text-shadow: 0 0 10px rgb(221, 76, 124),0 0 20px rgb(221, 76, 124),0 0 30px rgb(221, 76, 124),0 0 40px  rgb(221, 76, 124); */
+
+}
+.input_box{
+	
+	margin-top: 10px;
+	
+}
+ 
+.input_box>input{
+	border: none;
+	width: 300px;
+	height: 50px;
+	color: #fff;
+	background-color:transparent;
+	border-radius: 10px;
+	border-bottom: 1px solid #fff;
+	font-family: cursive;
+	font-size: 25px;
+	
+}
+.button_box>button{
+	
+	margin-top: 15px;
+	
+	width: 90%;
+	height: 40px;
+	border-color:#fff;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	color: #fff;	
+	background-color: transparent;
+	font-family: cursive;
+}
+	
+	
+.remember_box{
+	margin-left: -55%;
+	margin-top: 10px;
+	position: relative;
+}
+.forget{
+	position: absolute;
+	top: 51.8%;
+	left: 52.5%;
+	color: #000;
+}
+.remember_box:hover{
+	color: #fff;
+}
+.forget:hover{
+	color: #fff;
+}
+.input_box:hover{
+	border: 1px solid #fff;
+	border-radius: 10px	;
+}
+[name='vercode']{
+	width: 150px;
+	height:35px;
+	margin-left: -50%;
+		
+	margin-top: 15px;
+	
+	
+	
+	border-color:#fff;
+	border-radius: 8px;
+	
+	
+	font-size: 20px;
+	color: #fff;	
+	background-color: transparent;
+	font-family: cursive;
+	
+}
+[name='code']{
+	margin-top: 15px;
+	margin-right: 50px;
+	position:absolute;
+	right:37%;
+	border-radius: 8px;
+	padding: 2px; 
+}
